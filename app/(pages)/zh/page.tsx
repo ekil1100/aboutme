@@ -8,8 +8,9 @@ const En: NextPage<{ serverSideData: any }, any> = ({ serverSideData }: { server
 
 export default function EnPage() {
     return (
-        // <Provider store={store}>
-        <En serverSideData={null} />
-        // </Provider>
+        <>
+            <En serverSideData={null} />
+            <div>hello world</div>
+        </>
     )
 }
